@@ -2,6 +2,8 @@
 ![Image](https://img.shields.io/badge/Ruby-2.3.1-green.svg)
 ![Image](https://img.shields.io/badge/Rails-5.0-green.svg)
 
+### Description
+
 The chatbot [ZY](https://dominoesbase.github.io/ZYassistant/) was developed to be an assistant in Facebook Messenger.
 
 This repository contains a small part of ZY (Wikipedia queries). For that, a Gem was used to make it easier to consult Wikipedia.
