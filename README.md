@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+## ZYassistant 
+![Image](https://img.shields.io/badge/Ruby-2.3.1-green.svg)
+![Image](https://img.shields.io/badge/Rails-5.0-green.svg)
 
-You can use the [editor on GitHub](https://github.com/dominoesbase/zyassistant/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The chatbot [ZY](https://dominoesbase.github.io/ZYassistant/) was developed to be an assistant in Facebook Messenger.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This repository contains a small part of ZY (Wikipedia queries). For that, a Gem was used to make it easier to consult Wikipedia.
 
-### Markdown
+### Changing settings search Wikipedia
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You can change some settings associated with the search on Wikipedia. To do this, you must access **assistant_controler.rb**.
 
-```markdown
-Syntax highlighted code block
+```ruby
+# Basic controller to respond
+class AssistantController < ApplicationController
+  def messenger
+    query = (params[:result][:parameters]['any'].present?)? params[:result][:parameters]['any'] : "Ruby On Rails"
+    page = WikipediaConsulter.find_by_name(query)
 
-# Header 1
-## Header 2
-### Header 3
+    if page.text.present?
+      text = "#{page.text.slice(0, 500)}" # Response size
+    else
+      text = "I'm sorry, but I could not find this information." # Response error
+    end
 
-- Bulleted
-- List
+    response =
+    {
+      "speech": text,
+      "displayText": text,
+      "data": "",
+      "source": "Programming Assitant"
+    }
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+    render json: response
+  end
+end
+```
+Or change the route (**routes.rb**).
+```ruby
+  post '/messenger' => 'assistant#messenger'
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Heroku
+Use a host to put the app online. (**For example, Heroku**)
+[Read more!](https://devcenter.heroku.com/articles/getting-started-with-ruby#set-up)
 
-### Jekyll Themes
+### Author
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dominoesbase/zyassistant/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* [dominoesbase](https://twitter.com/jorgedominoes)
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
