@@ -42,7 +42,7 @@ Or change the route (**routes.rb**).
   post '/messenger' => 'assistant#messenger'
 ```
 
-### Heroku
+### Heroku and [API.AI](https://api.ai)
 Use a host to put the app online. **I suggest using Heroku**.
 [Read more!](https://devcenter.heroku.com/articles/getting-started-with-ruby#set-up)
 
