@@ -1,4 +1,4 @@
-## ZYassistant 
+## ZYchatbot 
 ![Image](https://img.shields.io/badge/Ruby-2.3.1-green.svg)
 ![Image](https://img.shields.io/badge/Rails-5.0-green.svg)
 
