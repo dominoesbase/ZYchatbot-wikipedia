@@ -4,7 +4,7 @@
 
 ### Description
 
-The chatbot [ZY](https://dominoesbase.github.io/ZYassistant/) was developed to be an assistant in Facebook Messenger.
+The chatbot [ZY](https://dominoesbase.github.io/ZYchatbot-wikipedia/) was developed to be an assistant in Facebook Messenger.
 
 This repository contains a small part of ZY (Wikipedia queries). For that, a Gem was used to make it easier to consult Wikipedia.
 
