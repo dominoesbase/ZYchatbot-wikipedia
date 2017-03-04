@@ -8,7 +8,7 @@ The chatbot [ZY](https://dominoesbase.github.io/ZYchatbot-wikipedia/) was develo
 
 This repository contains a small part of ZY (Wikipedia queries). For that, a Gem was used to make it easier to consult Wikipedia.
 
-### Changing settings search Wikipedia
+### Changing Wikipedia search settings
 
 You can change some settings associated with the search on Wikipedia. To do this, you must access **assistant_controler.rb**.
 
