@@ -43,7 +43,7 @@ Or change the route (**routes.rb**).
 ```
 
 ### Heroku and [API.AI](https://api.ai)
-Use a host to put the app online. **I suggest using Heroku.
+Use a host to put the app online. **I suggest using 
 [Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby#set-up)**.
 To easily create the Bot, you can use the API.AI platform.
 
