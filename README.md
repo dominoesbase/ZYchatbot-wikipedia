@@ -1,6 +1,6 @@
 ## ZYchatbot 
 ![Image](https://img.shields.io/badge/Ruby-2.3.1-green.svg)
-![Image](https://img.shields.io/badge/Rails-5.0-green.svg)
+![Image](https://img.shields.io/badge/Rails-5.0.1-green.svg)
 
 ### Description
 
@@ -46,6 +46,10 @@ Or change the route (**routes.rb**).
 Use a host to put the app online (for example:
 **[Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby#set-up)**).
 To easily create the Bot, you can use the **[API.AI](https://api.ai)** platform.
+
+### Update 2018/08/12
+All vulnerabilities (Gemfile.lock) were fixed.
+
 
 
 ### Author
