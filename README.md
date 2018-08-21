@@ -30,7 +30,7 @@ class AssistantController < ApplicationController
       "speech": text,
       "displayText": text,
       "data": "",
-      "source": "Programming Assitant"
+      "source": "Programming Assistant"
     }
 
     render json: response
