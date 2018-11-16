@@ -47,7 +47,7 @@ Use a host to put the app online (for example:
 **[Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby#set-up)**).
 To easily create the Bot, you can use the **[API.AI](https://api.ai)** platform.
 
-### Update 2018/08/21
+### Update 2018/11/16
 All vulnerabilities (Gemfile.lock) were fixed.
 
 ### Author
