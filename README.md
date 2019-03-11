@@ -6,11 +6,11 @@
 
 The chatbot [ZY](https://dominoesbase.github.io/ZYchatbot-wikipedia/) was developed to be an assistant in Facebook Messenger.
 
-This repository contains a small part of ZY (Search on Wikipedia). For that, a Gem was used to make it easier to consult Wikipedia.
+This repository contains a small part of ZY (Search on Wikipedia). For that, a Gem was used to make it easier to consult on Wikipedia.
 
 ### Changing Wikipedia search settings
 
-You can change some settings associated with the search on Wikipedia. To do this, you must access **assistant_controler.rb**.
+You can change some settings associated with the search on Wikipedia. To do this, you must access the controler **assistant_controler.rb**.
 
 ```ruby
 # Basic controller to respond
