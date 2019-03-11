@@ -42,7 +42,7 @@ Or change the route (**routes.rb**).
   post '/messenger' => 'assistant#messenger'
 ```
 
-### Heroku and API.AI
+### Heroku and Dialogflow
 Use a host to put the app online (for example:
 **[Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby#set-up)**).
 To easily create the Bot, you can use the **[Dialogflow](https://dialogflow.com/)** platform.
