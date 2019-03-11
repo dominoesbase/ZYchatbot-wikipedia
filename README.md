@@ -45,7 +45,7 @@ Or change the route (**routes.rb**).
 ### Heroku and API.AI
 Use a host to put the app online (for example:
 **[Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby#set-up)**).
-To easily create the Bot, you can use the **[API.AI](https://api.ai)** platform.
+To easily create the Bot, you can use the **[Dialogflow](https://dialogflow.com/)** platform.
 
 ### Update 2019/01/28
 All vulnerabilities (Gemfile.lock) were fixed.
