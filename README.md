@@ -48,7 +48,7 @@ Use a host to put the app online (for example:
 To easily create the Bot, you can use the **[Dialogflow](https://dialogflow.com/)** platform.
 
 ### Last Revision
-All vulnerabilities (Gemfile.lock) were fixed (2019/01/28).
+All vulnerabilities (Gemfile.lock) were fixed (2019/03/14).
 
 ### Author
 * [dominoesbase](https://twitter.com/jorgedominoes)
